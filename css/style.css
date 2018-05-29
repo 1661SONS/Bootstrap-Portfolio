@@ -27,48 +27,31 @@ hr {
 }
 
 /* navigation */
-nav {
+a span h1:hover {
+    text-decoration: underline;
+}
+.nav {
     background-color: #fff;
     border-bottom: 1px solid #ddd;
-    height: 75px;
+    height: 80px;
+    padding-right: 110px;
 }
-nav span h1 {
+.nav li {
+    line-height: 60px;
+}
+.nav span h1 {
     color: white;
     background-color: #2181F7;
     width: 275px;
-    height: 75px;
+    height: 80px;
     text-align: center;
-    position: relative;
-    left: 105px;
-    vertical-align: middle;
     line-height: 70px;
-}
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
     position: absolute;
-    right: 110px;
-    top: 25px;
+    left: 120px;
 }
-nav li {
-    float: left;
-}
-.borderRight {
-    border-right: 1px solid #ccc;
-}
-nav li a {
-    display: block;
-    color: #6C757C;
-    text-decoration: none;
-    padding: 0 18px 0 18px;
-}
-#noRightPadding {
-    padding-right: 0;
-}
-nav li a:hover {
+a.nav-link:hover {
     color: #2181F7;
+    text-decoration: underline;
 }
 .currentLink {
     font-weight: 550;
@@ -88,7 +71,7 @@ nav li a:hover {
 }
 .contentCardImage {
     height: auto;
-    width: 50%;
+    width: 100%;
     margin: 10px 0 30px 0;
 }
 
