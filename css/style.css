@@ -99,58 +99,31 @@ nav li a:hover {
 
 /* portfolio // authors grid */
 .baldwin {
-    height: 250px;
     background-image: url(http://www.latimes.com/resizer/5a-0hkyNQAlyWnTgLt6kddt74ag=/1400x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/4FAXOJ3LPVDOREH4IOJIGKNDQE.jpg);
-    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    width: 33.3333%;
-    float: left;
-    margin: 10px 20px 10px 0;
-    overflow: hidden;
 }
 .coates {
-    height: 250px;
     background-image: url(http://today.cofc.edu/wp-content/uploads/2016/10/Coates_2015-750x499.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 33.3333%;
-    float: left;
-    margin: 10px 20px 10px 0;
-    overflow: hidden;
+    background-position: center;
 }
 .klein {
-    height: 250px;
     background-image: url(https://cdn-03.belfasttelegraph.co.uk/life/features/article31112210.ece/77fa4/AUTOCROP/w620/2015-04-02_lif_8293969_I1.JPG);
-    background-repeat: no-repeat;
     background-position: top;
-    background-size: cover;
-    width: 33.3333%;
-    float: left;
-    margin: 10px 20px 10px 0;
-    overflow: hidden;
 }
 .kerouac {
-    height: 250px;
     background-image: url(https://media.gq.com/photos/558358003655c24c6c963b25/master/w_800/style-blogs-the-gq-eye-jack%20kerouac.jpg);
-    background-repeat: no-repeat;
     background-position: top;
-    background-size: cover;
-    width: 33.3333%;
-    float: left;
-    margin: 10px 20px 10px 0;
-    overflow: hidden;
 }
 .scahill {
-    height: 250px;
     background-image: url(http://www3.pictures.zimbio.com/gi/Jeremy+Scahill+86th+Academy+Awards+Nominee+ebjegQnzrmjl.jpg);
-    background-repeat: no-repeat;
     background-position: top;
+}
+.baldwin, .coates, .klein, .kerouac, .scahill {
+    height: 300px;
+    background-repeat: no-repeat;
     background-size: cover;
-    width: 33.3333%;
-    float: left;
-    margin: 10px 20px 10px 0;
-    overflow: hidden;
+    margin: 10px;
+    padding: 0;
 }
 
 /* teal author names */
@@ -160,8 +133,8 @@ nav li a:hover {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     position: relative;
-    top: 200px;
-    padding: 10px 0 10px 0;
+    top: 230px;
+    padding: 15px 0 15px 0;
 }
 
 /* contact form */
