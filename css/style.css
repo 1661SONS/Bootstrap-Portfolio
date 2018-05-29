@@ -16,8 +16,16 @@ h1 {
     font-size: 28px;
     color: #2181F7;
 }
-h2 {
-    border-bottom: 2px solid #ddd; 
+/* h2 {
+    border-bottom: 4px solid #ddd;
+} */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ddd;
+    margin: 1em 0;
+    padding: 0;
 }
 
 /* navigation */
@@ -157,33 +165,10 @@ nav li a:hover {
 }
 
 /* contact form */
-input, textarea {
-    width: 895px;
-    padding: 10px 0px 10px 0;
-    margin: 15px 0 20px 0;
-    border: 1px solid #ccc;
-    font: 1em sans-serif;
-}
-input {
-    padding-left: 1em;
-}
-textarea {
-    height: 125px;
-    vertical-align: top;
-    padding-left: 1em;
-}
-input::placeholder, textarea::placeholder {
-    color: #ccc;
-}
-button {
+.btn-primary {
     padding: 10px 30px 10px 30px;
-    background-color: #2181F7;
-    color: white;
-    font-size: 18px;
-    border: none;
 }
-button:hover {
-    background-color: teal;
+.btn-primary:hover {
     text-decoration: underline;
 }
 
