@@ -27,34 +27,32 @@ hr {
 }
 
 /* navigation */
-a span h1:hover {
-    text-decoration: underline;
-}
-.nav {
+.navbar {
     background-color: #fff;
     border-bottom: 1px solid #ddd;
     height: 80px;
-    padding-right: 110px;
 }
-.nav li {
-    line-height: 60px;
+.navbar-brand {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 25px;
+    font-weight: 700;
 }
-.nav span h1 {
-    color: white;
-    background-color: #2181F7;
-    width: 275px;
-    height: 80px;
-    text-align: center;
-    line-height: 70px;
-    position: absolute;
-    left: 120px;
-}
-a.nav-link:hover {
+a.navbar-brand:any-link {
     color: #2181F7;
-    text-decoration: underline;
 }
-.currentLink {
+a.navbar-brand:hover, .nav-link:hover {
+    text-decoration: underline;
+    color: #2181F7 !important;
+}
+.active {
     font-weight: 550;
+}
+.navbar-collapse {
+    background-color: white;
+    width: 100%;
+    padding: 0 25px 0 25px;
+    border: 1px solid #ddd;
+   z-index: 1000;
 }
 
 /* main cotent card */
@@ -140,6 +138,19 @@ footer {
     left: 0;
     padding: 25px 0 25px 0;
     color: #ddd;
+}
+
+/* media queries */
+@media only screen and (max-width: 640px) {
+    .contentCard {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .nav span h1 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
 }
 
  
